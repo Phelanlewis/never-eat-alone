@@ -82,8 +82,8 @@
       </li>
     </ul>
 
-    <div>
-      
+    <div class="btn">
+      <button v-on:click="start-room">Start a Room</button>
     </div>
   </div>
 </template>
@@ -97,6 +97,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -114,5 +115,12 @@ li {
 }
 a {
   color: #42b983;
+}
+button {
+  padding: 1em;
+  border-radius: 1em;
+  font-weight: normal;
+  background-color: #42b983;
+  color: antiquewhite;
 }
 </style>
