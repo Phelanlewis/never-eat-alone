@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <router-link to="/video"><a>Video</a></router-link>
+    <router-link to="/peer"><a>Peer Video</a></router-link>
     <h2>Essential Links</h2>
     <ul>
       <li>
@@ -95,7 +96,8 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+
 }
 
 </script>
